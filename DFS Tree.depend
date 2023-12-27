@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1703656060 source:d:\telkom university\lms\semester 3\struktur data\week 15\tugas\dfs tree\main.cpp
+	"Tree.h"
+
+1703656307 d:\telkom university\lms\semester 3\struktur data\week 15\tugas\dfs tree\tree.h
+	<iostream>
+
+1703656033 source:d:\telkom university\lms\semester 3\struktur data\week 15\tugas\dfs tree\tree.cpp
+	"Tree.h"
+
