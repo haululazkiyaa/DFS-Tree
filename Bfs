@@ -1,0 +1,19 @@
+void printBFS(adrNode root)
+{
+    int h = heightTree_1302223134(root)+1;
+    int i;
+    for (i = 1; i <= h; i++)
+        printLevel(root, i);
+}
+
+void printLevel(adrNode root, int level)
+{
+    if (root == NULL)
+        return;
+    if (level == 1)
+        cout << info(root) << " ";
+    else if (level > 1) {
+        printLevel(left(root), level - 1);
+        printLevel(right(root), level - 1);
+    }
+}
